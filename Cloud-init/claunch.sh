@@ -253,11 +253,9 @@ main_claunch(){
     providerck
     check_os
     check_root
-    remove_user
     set_ssh_alive
     install_cloudinit
     setup_cloud
-    cleanup
 }
 main_claunch
 exit 0
